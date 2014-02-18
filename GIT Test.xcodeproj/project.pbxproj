@@ -21,6 +21,7 @@
 		EA21FE6318B377C700546288 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA21FE4518B377C700546288 /* UIKit.framework */; };
 		EA21FE6B18B377C700546288 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA21FE6918B377C700546288 /* InfoPlist.strings */; };
 		EA21FE6D18B377C700546288 /* GIT_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA21FE6C18B377C700546288 /* GIT_TestTests.m */; };
+		EA21FE7B18B37A7B00546288 /* CRTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EA21FE7A18B37A7B00546288 /* CRTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		EA21FE6818B377C700546288 /* GIT TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GIT TestTests-Info.plist"; sourceTree = "<group>"; };
 		EA21FE6A18B377C700546288 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA21FE6C18B377C700546288 /* GIT_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIT_TestTests.m; sourceTree = "<group>"; };
+		EA21FE7918B37A7B00546288 /* CRTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRTest.h; sourceTree = "<group>"; };
+		EA21FE7A18B37A7B00546288 /* CRTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 			children = (
 				EA21FE5018B377C700546288 /* CRAppDelegate.h */,
 				EA21FE5118B377C700546288 /* CRAppDelegate.m */,
+				EA21FE7918B37A7B00546288 /* CRTest.h */,
+				EA21FE7A18B37A7B00546288 /* CRTest.m */,
 				EA21FE5318B377C700546288 /* Main.storyboard */,
 				EA21FE5618B377C700546288 /* CRViewController.h */,
 				EA21FE5718B377C700546288 /* CRViewController.m */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA21FE7B18B37A7B00546288 /* CRTest.m in Sources */,
 				EA21FE4E18B377C700546288 /* main.m in Sources */,
 				EA21FE5218B377C700546288 /* CRAppDelegate.m in Sources */,
 				EA21FE5818B377C700546288 /* CRViewController.m in Sources */,
